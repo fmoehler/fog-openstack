@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fog/openstack/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fog-openstack"
+  spec.name          = "fog-openstack-fork"
   spec.version       = Fog::OpenStack::VERSION
-  spec.authors       = ["Matt Darby"]
-  spec.email         = ["matt.darby@rackspace.com"]
+  spec.authors       = ["Felix Moehler"]
+  spec.email         = ["felix.moehler@sap.com"]
 
   spec.summary       = %q{OpenStack fog provider gem}
   spec.description   = %q{OpenStack fog provider gem.}
-  spec.homepage      = "https://github.com/fog/fog-openstack"
+  spec.homepage      = "https://github.com/fmoehler/fog-openstack"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

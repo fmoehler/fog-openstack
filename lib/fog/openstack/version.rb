@@ -1,5 +1,5 @@
 module Fog
   module OpenStack
-    VERSION = '1.1.0'.freeze
+    VERSION = '99'.freeze
   end
 end
